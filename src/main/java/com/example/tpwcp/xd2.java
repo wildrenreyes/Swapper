@@ -17,8 +17,7 @@ public class xd2 extends AppCompatActivity {
         data1 = (TextView)findViewById(R.id.textView);
     }
 
-    public void SetText(String x){
-        setContentView(R.layout.activity_main2);
+    public void setTextds(String x){
         data1 = (TextView)findViewById(R.id.textView);
         data1.setText(x);
     }
